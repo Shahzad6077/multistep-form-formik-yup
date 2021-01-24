@@ -8,7 +8,6 @@ import {
   Stepper,
   StepContent,
 } from "@material-ui/core";
-import Alert from "@material-ui/lab/Alert";
 import { Form, Formik, FormikConfig, FormikValues } from "formik";
 import React, { useState } from "react";
 import { FormikStepProps, FORM_VALUES_TYPE } from "./Multistep.interface";
