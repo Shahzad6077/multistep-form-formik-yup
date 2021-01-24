@@ -1,13 +1,54 @@
+@font-face {
+  font-family: "Chibold";
+  src: url("./Assets/Chibold.ttf") format("truetype");
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.multistepform * {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+.multistepform {
+  max-width: 620px;
+  margin: auto;
+}
+
+.App-header {
+  margin: 1.5rem 0px;
+  font-weight: 800;
+}
+
+.gtext {
+  background: rgb(255, 68, 61);
+  background: linear-gradient(
+    21deg,
+    rgba(255, 68, 61, 1) 10%,
+    rgba(255, 203, 193, 1) 49%,
+    rgba(255, 107, 101, 1) 84%,
+    rgba(255, 221, 220, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: rgb(255, 68, 61);
+  background: linear-gradient(
+    21deg,
+    rgba(255, 68, 61, 1) 20%,
+    rgba(255, 142, 134, 1) 39%,
+    rgba(255, 203, 193, 1) 54%,
+    rgba(255, 107, 101, 1) 84%,
+    rgba(255, 68, 61, 1) 94%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
